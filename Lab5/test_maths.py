@@ -25,6 +25,10 @@ class MathsTest(unittest.TestCase):
         result = maths.convert_base(45, 16)
         self.assertEqual(result, 'D', "Over 10 Funtion failed")
     
+    def test_factorial(self):
+        result = maths.factorial(7)
+        self.assertEqual(result, 5040)
+    
     
         
 

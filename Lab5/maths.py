@@ -38,3 +38,14 @@ def convert_base(num, n):
         new_num_string = remainder_string+new_num_string
         current = current//n
     return new_num_string
+
+def factorial(num):
+    num = 7
+    if num < 0:
+        print("Sorry, factorial does not exist for negative numbers")
+    elif num == 0:
+        print("The factorial of 0 is 1")
+    else:
+        for i in range(1,num + 1):
+            factorial = num*i
+        print("The factorial of",num,"is",factorial)
